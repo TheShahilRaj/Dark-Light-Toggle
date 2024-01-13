@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+* body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  transition: all 1s ease;
+  min-height: 0vh;
+  font-family: "Poppins";
+  color: #222222;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+/* @media (min-width: 500px) {
+  .container {
+    width: 50%;
+  }
+} */
+.container .title {
+  text-align: center;
+}
+
+.container input[type=checkbox] {
+  display: none;
+}
+
+.btn {
+    align-self: center;
+  margin: 75px 0;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 120px;
+  height: 60px;
+  background-color: #222222;
+  transition: all 1s ease;
+  position: relative;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.box .ball {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  transition: all 1s ease;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #222222;
+}
+.box .scenary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  transition: all 1s ease;
+  padding: 5px 10px 0px 10px;
+}
+.box .scenary svg {
+  width: 40px;
+}
+h1 {
+    font-size: 80px;
+    font-family:Montserrat,sans-serif;
+    
+  }
